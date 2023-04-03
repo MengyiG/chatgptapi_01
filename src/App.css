@@ -1,10 +1,26 @@
 .App {
   text-align: center;
+  padding: 3% 5% 0 5%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.textbox{
+  background-color: #61dafb;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  padding: 12px 20px;
+  margin: 0 8px;
+  font:900 1.5em;
+  font-size: large;
+}
+
+.textbox:hover{
+  background-color: #e9edc9;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
